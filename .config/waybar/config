@@ -1,0 +1,7 @@
+{
+	"layer": "top",
+	"position": "top",
+	"modules-left": ["user"],
+	"modules-center": ["hyprland/window"],
+	"modules-right": ["wireplumber", "backlight", "battery", "clock", "tray"]
+}

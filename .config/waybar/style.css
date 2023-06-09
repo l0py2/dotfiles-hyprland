@@ -1,0 +1,16 @@
+* {
+	font-size: 16px;
+	color: #aba8a3;
+}
+
+window#waybar.hidden {
+	opacity: 0;
+}
+
+window#waybar {
+	background-color: transparent;
+}
+
+label {
+	padding: 4px;
+}
