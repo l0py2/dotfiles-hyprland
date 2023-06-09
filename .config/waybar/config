@@ -3,5 +3,21 @@
 	"position": "top",
 	"modules-left": ["user"],
 	"modules-center": ["hyprland/window"],
-	"modules-right": ["wireplumber", "backlight", "battery", "clock", "tray"]
+	"modules-right": ["wireplumber", "backlight", "battery", "clock", "tray"],
+	"user": {
+		"format": "USER: {user} {work_H}:{work_M}"
+	},
+	"wireplumber": {
+		"format": "VOLUME: {volume}%",
+		"scroll-step": 1
+	},
+	"backlight": {
+		"format": "BACKLIGHT: {percent}%"
+	},
+	"battery": {
+		"format": "BATTERY: {capacity}%"
+	},
+	"clock": {
+		"format": "CLOCK: {:%H:%M}"
+	}
 }
