@@ -1,3 +1,5 @@
+require('plugins')
+
 vim.o.number = true
 vim.o.relativenumber = true
 
@@ -9,3 +11,5 @@ vim.o.tabstop = 6
 vim.o.softtabstop = 0
 
 vim.o.autoindent = true
+
+vim.cmd[[colorscheme nord]]
