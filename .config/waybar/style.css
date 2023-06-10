@@ -1,5 +1,6 @@
 * {
-	font-size: 16px;
+	font-size: 12px;
+	font-weight: bold;
 	color: #4c566a;
 }
 
@@ -13,4 +14,16 @@ window#waybar {
 
 label {
 	padding: 4px;
+}
+
+.modules-left {
+	margin: 8px 0 0 8px;
+}
+
+.modules-center {
+	margin: 8px 0 0 0;
+}
+
+.modules-right {
+	margin: 8px 8px 0 0;
 }

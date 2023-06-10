@@ -5,19 +5,19 @@
 	"modules-center": ["hyprland/window"],
 	"modules-right": ["wireplumber", "backlight", "battery", "clock", "tray"],
 	"user": {
-		"format": "USER: {user} {work_H}:{work_M}"
+		"format": " {user} {work_H}:{work_M}"
 	},
 	"wireplumber": {
-		"format": "VOLUME: {volume}%",
+		"format": " {volume}%",
 		"scroll-step": 1
 	},
 	"backlight": {
-		"format": "BACKLIGHT: {percent}%"
+		"format": " {percent}%"
 	},
 	"battery": {
-		"format": "BATTERY: {capacity}%"
+		"format": " {capacity}%"
 	},
 	"clock": {
-		"format": "CLOCK: {:%H:%M}"
+		"format": " {:%H:%M}"
 	}
 }
