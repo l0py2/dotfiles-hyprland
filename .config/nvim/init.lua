@@ -1,6 +1,7 @@
 require('plugins')
 require('plugins.treesitter')
 require('plugins.lualine')
+require('plugins.lsp')
 require('mappings')
 
 vim.o.number = true
@@ -15,4 +16,4 @@ vim.o.softtabstop = 0
 
 vim.o.autoindent = true
 
-vim.cmd[[colorscheme nord]]
+vim.cmd.colorscheme('nord')
