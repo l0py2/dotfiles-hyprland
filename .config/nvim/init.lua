@@ -17,3 +17,5 @@ vim.o.softtabstop = 0
 vim.o.autoindent = true
 
 vim.cmd.colorscheme('nord')
+
+vim.o.signcolumn = 'yes'
