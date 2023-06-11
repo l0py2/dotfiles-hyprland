@@ -45,6 +45,11 @@ packer.startup(function(use)
 		'williamboman/mason-lspconfig.nvim',
 		'neovim/nvim-lspconfig'
 	}
+	use {
+		'neovim/nvim-lspconfig',
+		'hrsh7th/cmp-nvim-lsp',
+		'hrsh7th/nvim-cmp'
+	}
 
 	if packer_bootstrap then
 		packer.sync()

@@ -2,6 +2,7 @@ require('plugins')
 require('plugins.treesitter')
 require('plugins.lualine')
 require('plugins.lsp')
+require('plugins.cmp')
 require('mappings')
 
 vim.o.number = true
