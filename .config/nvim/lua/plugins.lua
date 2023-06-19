@@ -46,9 +46,11 @@ packer.startup(function(use)
 		'neovim/nvim-lspconfig'
 	}
 	use {
-		'neovim/nvim-lspconfig',
-		'hrsh7th/cmp-nvim-lsp',
-		'hrsh7th/nvim-cmp'
+		'hrsh7th/nvim-cmp',
+		requires = {
+			{ 'hrsh7th/cmp-nvim-lsp' },
+			{ 'neovim/nvim-lspconfig' }
+		}
 	}
 
 	if packer_bootstrap then
