@@ -49,7 +49,12 @@ packer.startup(function(use)
 		'hrsh7th/nvim-cmp',
 		requires = {
 			{ 'hrsh7th/cmp-nvim-lsp' },
-			{ 'neovim/nvim-lspconfig' }
+			{ 'neovim/nvim-lspconfig' },
+			{
+				'L3MON4D3/LuaSnip',
+				tag = 'v<CurrentMajor>.*'
+			},
+			{ 'saadparwaiz1/cmp_luasnip' }
 		}
 	}
 
