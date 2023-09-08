@@ -1,23 +1,12 @@
 {
-	"layer": "top",
+	"layer": "bottom",
 	"position": "top",
-	"modules-left": ["user"],
+	"modules-left": ["hyprland/workspaces"],
 	"modules-center": ["hyprland/window"],
-	"modules-right": ["wireplumber", "backlight", "battery", "clock", "tray"],
-	"user": {
-		"format": " {user} {work_H}:{work_M}"
-	},
-	"wireplumber": {
-		"format": " {volume}%",
-		"scroll-step": 1
-	},
-	"backlight": {
-		"format": " {percent}%"
-	},
-	"battery": {
-		"format": " {capacity}%"
-	},
-	"clock": {
-		"format": " {:%H:%M}"
+	"modules-right": ["battery", "backlight", "clock", "tray"],
+	"hyprland/workspaces": {
+		"persistent_workspaces": {
+			"*": 6
+		}
 	}
 }
