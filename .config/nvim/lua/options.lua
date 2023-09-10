@@ -12,4 +12,4 @@ vim.o.autoindent = true
 
 vim.o.signcolumn = 'yes'
 
-vim.cmd.colorscheme('nord')
+vim.cmd.colorscheme('catppuccin-mocha')

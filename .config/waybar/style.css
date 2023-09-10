@@ -1,0 +1,27 @@
+* {
+	font-size: 14px;
+	color: rgb(205, 214, 244);
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+window#waybar {
+	background-color: rgba(69, 71, 90, 0.8);
+}
+
+#workspaces,
+#battery,
+#backlight,
+#clock,
+#tray {
+	background-color: rgba(243, 139, 168, 0.8);
+}
+
+#battery,
+#backlight,
+#clock,
+#tray,
+button {
+	padding: 0 4px;
+}
