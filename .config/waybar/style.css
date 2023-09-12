@@ -25,3 +25,7 @@ window#waybar {
 button {
 	padding: 0 4px;
 }
+
+#workspaces button.active {
+	box-shadow: inset 0px -4px 0px 0px rgb(245,194,231);
+}
